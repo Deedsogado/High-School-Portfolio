@@ -1,0 +1,27 @@
+/* Print Style for Ross Higley's Home page. links to default, homework, aboutme, and photos */
+
+@page {
+  size: 8.5in 11in;
+  margin: 0.5in;
+}
+
+body {
+  color: black;
+  background-color: white;
+  background-image: none;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+  line-hieght: 120%;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+#navbar {
+  display: none;
+}  
+.none {
+  display: none;
+}

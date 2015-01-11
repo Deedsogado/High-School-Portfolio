@@ -1,0 +1,59 @@
+/* Author: Ross Higley
+   1 November 2010
+   Links to midterm */
+body {
+  font-size: 1.1em;
+  font-family: Verdana, sans-seriff;
+  color: navy;
+  background-image: url(../images/scale.JPG);
+  background-color: #009acd;
+}
+
+h1 {
+  background: #009acd;
+  border: dotted blue; 
+  padding: 10px;
+  
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+img {
+  border: solid medium navy
+}
+
+p.center {
+  text-align: center;
+}
+
+p.home {
+  float: right;
+  clear:both;
+  padding: 10px;
+}
+
+img.right {
+  float: right;
+  clear: both;
+  margin: 10px 100px 10px 10px;
+  
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: #009acd;
+  background-color: blue;
+}
+
+a:active {
+  color: red;
+}

@@ -1,0 +1,259 @@
+ /* twinlife css page. links to index, news, features. articles, and survey. */
+ 
+ * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, Sans-seriff;
+  background-color: #ffffc5;
+}
+
+a {
+  color: yellow;
+}
+
+p {
+  padding: 10px;
+  text-indent: 2em;
+}
+
+p.center {
+  text-align: center;
+}
+
+#container {
+  width: 930px;
+  border-width: 1px;
+  margin: 0 auto;
+}
+
+#header {
+  width: 910px;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  height: 108px;
+}
+
+#navbar {
+  width: 910px;
+  margin: 0 0 15px 0;
+  height: 25px;
+}
+
+#navbar p {
+  font-size: 1.5em;
+  display: inline;
+  border: 2px solid navy;
+  margin: 0 1% 0 0; 
+  padding: 0 5.5%;
+  color: yellow;
+  background-color: blue;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+
+#navbar p.big {
+  text-transform: uppercase;
+  margin: 0 1% 0 0;
+  padding: 1% 6%;
+  background-color: yellow;
+  border: 2px solid #FFD700;
+}
+
+#navbar p.big a {
+  color: blue;
+}
+
+#navbar p.big a:hover {
+  color: orange;
+}
+
+#bg {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/back.jpg);
+  background-repeat: repeat-y;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+
+#sidebar {
+  width: 15.5%;
+  padding: 1%;
+  background-color: orange;
+  float: left;
+  text-indent: 0;
+}
+
+#sidebar p {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.6em;
+  text-indent: 0;
+}
+
+script {
+  font-size: 14pt;
+}
+
+object, applet {
+  width: 100%;
+  height: 50px;
+} 
+
+#content, #survey {
+  width: 81.5%;
+  background-color: #ffffc5;
+  float: right;
+  font-size: 1.1em;
+  margin: 40px 0 0 0;
+}
+
+#content a {
+  color: blue;
+}
+
+#survey {
+  margin: 0;
+}
+
+#reg {
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid red;
+  margin: 0 0 10px 0;
+}
+
+#reg2 {
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid red;
+  margin: 40px 0 10px 0;
+}
+
+img.top {
+  float: left;
+  margin: -40px 0 0 0;
+}
+
+img.right {
+  float: right;
+}
+
+#staff {
+  width: 50%;
+  float: left;
+}
+
+#staff1 {
+  width: 50%;
+  float: left;
+}
+
+#staff1 p {
+  text-align: left;
+}
+
+#staff2 {
+  width: 50%;
+  float: right;
+}
+
+#staff2 p {
+  text-align: right;
+}
+
+#picture {
+  width: 50%;
+  float:right;
+}
+
+#footer {
+  text-align: center;
+  color: navy;
+}
+
+#footer a {
+  color: blue;
+}
+
+h1 {
+  font-size: 18pt;
+}
+
+h2 {
+  font-size: 14pt;
+}
+
+input.button {
+  color: navy;
+  text-transform: uppercase;
+  padding: 4px;
+}
+
+form {
+  font-size: 14pt;
+}
+
+form div {
+  margin: 0;
+  border-bottom: 0;
+}
+
+label {
+  width: 350px;
+  margin-right: 15px;
+  color: black;
+  float: left;
+  text-align: right;
+}
+
+select {
+  text-align: left;
+  width: 220px;
+  font-size: 14pt;
+}
+
+#buttons {
+  margin: 0 0 0 32%;
+}
+
+table {
+  width: 80%;
+  margin: 10px auto;
+  border: solid 3px black;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+caption {
+  padding: 4px;
+  color: white;
+  background-color: blue;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+td {
+  padding: 6px;
+  border: solid 1px black;
+}
+
+.center {
+  font-style: italic;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+

@@ -1,0 +1,98 @@
+/* Style sheet for Ross Higley's Home page. links to default, homework, and aboutme */
+
+* {
+  padding: 0
+  margin: 0
+}
+
+body {
+  color: silver;
+  background-color: navy;
+  font-family: Sans-serif;
+  line-height: 1.5em;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  clear: both;
+}
+
+.upper {
+  float: left;
+  
+}
+
+ul {
+  margin-left: 1em;
+  padding-left: 0;
+}
+
+ul li {
+list-style-type: none;
+}
+
+a {
+  padding: 2px;
+  border: none;
+  margin: 2px;
+}
+
+a:link {
+  color: gold;
+}
+
+a:visited {
+  color: #CCCCCC;
+}
+
+a:hover {
+  margin: 1px;
+  color:navy;
+  background-color: #CCCCCC;
+  border: solid thin grey;
+  border-top-color: #CCCCCC;
+  border-bottom-color: gold;
+}
+
+a:active {
+  color:gold;
+  background-color: #CCCCCC;
+}
+
+#home {
+  width: 910px;
+  padding: 10px;
+  clear: both;
+  height:25px;
+}
+
+#navbar {
+  width: 910px;
+  padding: 10 px;
+  clear: both;
+  height: 30px;
+  
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar li a {
+  padding: 5px;
+}
+
+img.car {
+  display: block;
+  width: auto;
+  margin: 5px auto;
+  border: medium solid gold;
+}
+
+
+
+
+
+
+

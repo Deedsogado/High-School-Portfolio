@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="Twin Life Magazine Online" />
+<meta name="keywords" content="Twin, twins, life, magazine, multiple births, triplets, quadruplets" />
+
+<title>Twin Life Survey</title>
+
+<link rel="stylesheet" href="twin.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="print.css" type="text/css" media="print"/>
+
+</head>
+
+<body>
+
+<div id="container">
+
+ <div id="header">
+   <p class="center" id="top"><img src="images/twinlogo5.jpg" title="Twin Life Logo" alt="Twin Life Logo" 
+   width="385" height="108" /></p>
+ </div> <!-- close header div -->
+
+ <div id="navbar">
+   <p><a href="news.htm">News</a></p><p><a href="feature.htm">Feature</a></p><p><a href="index.htm">Home</a></p><p><a href="articles.htm">Articles</a></p><p class="big"><a href="survey.htm">Survey</a></p>
+ </div> <!-- close navbar div -->
+ 
+ <div id="bg">
+ <div id="sidebar">
+   <p><a href="index.htm">Home</a><br /><a href="news.htm">News</a><br /><a href="feature.htm">Feature</a><br /><a href="articles.htm">Articles</a><br /><a href="survey.htm">Survey</a></p>
+ </div> <!-- close sidebar div -->
+ 
+ 
+  <div id="survey">
+  
+    <h1>Reader Survey</h1>
+<h2>Twin Life is interested in learning about YOU. Please fill out our 
+readership survey, so that we can provide you with articles that meet
+your needs and interests.</h2>
+
+<form class="survey" action="">
+
+<fieldset>
+<div>
+<label for="amount">I have (select one):</label>
+<select name="amount" id="amount">
+  <option value="twins" selected="selected">Twins</option>
+  <option value="triplets">Triplets</option>
+  <option value="quadrupletes">Quadrupletes or Higher</option>
+</select>
+</div>
+
+<div>
+<label for="type">They are (select one):</label>
+<select name="type" id="type">
+  <option value="fraternal" selected="selected">Fraternal</option>
+  <option value="identical">Identical</option>
+</select>
+</div>
+
+<div>
+<label for="age">Ages (select one):</label>
+<select name="age" id="age">
+  <option value="1">0-1</option>
+  <option value="2">1-2</option>
+  <option value="3">2-3</option>
+  <option value="4">3-4</option>
+  <option value="5">4-5</option>
+  <option value="6">5-6</option>
+  <option value="10">6-10</option>
+  <option value="15">10-15</option>
+</select>
+</div>
+
+<div>
+<label for="learn" class="left">I learnead about Twin life from</label>
+<select name="learn" id="learn">
+  <option value="friend">A Friend</option>
+  <option value="magazine">A Magazine</option>
+  <option value="doctor">Doctor</option>
+  <option value="internet">The Internet</option>
+  <option value="news">News Report</option>
+</select>
+</div>
+
+<div>
+<label for="family">Total number of children in my family</label>
+<input type="text" name="family" id="family" size="32" maxlength="2"/>
+</div>
+</fieldset>
+
+<div>
+<fieldset id="job"><legend>(check one)</legend>
+
+<label for="fullout">I work full-time outside the home</label>
+<input type="radio" name="job" id="fullout" value="fullout" /><br />
+
+<label for="partout">I work part-time outside the home</label>
+<input type="radio" name="job" id="partout" value="partout" /><br />
+
+<label for="fullhome">I work at home full-time</label>
+<input type="radio" name="job" id="fullhome" value="fullhome" /><br />
+
+<label for="parthome">I work at home part-time</label>
+<input type="radio" name="job" id="parthome" value="parthome" /><br />
+
+<label for="fullparent">I am a full-time mother/father</label>
+<input type="radio" name="job" id="fullparent" value="fullparent" checked="checked"/>
+
+</fieldset>
+</div>
+
+<div>
+<fieldset><legend>I am interested in articles on (check all that apply):</legend>
+
+<label for="nutrition">Nutrition and Health</label>
+<input type="checkbox" name="articles" id="nutrition" value="nutrition" /><br />
+
+<label for="psychology">Twin Psychology</label>
+<input type="checkbox" name="articles" id="psychology" value="psychology" /><br />
+
+<label for="discipline">Child Discipline</label>
+<input type="checkbox" name="articles" id="discipline" value="discipline" /><br />
+
+<label for="pregnancies">Twin and Multiple Birth Pregnancies</label>
+<input type="checkbox" name="articles" id="pregnancies" value="pregnancies" /><br />
+
+<label for="school">Day Care and School</label>
+<input type="checkbox" name="articles" id="school" value="school" /><br />
+
+<label for="problems">Adolescent Problems</label>
+<input type="checkbox" name="articles" id="problems" value="problems" /><br />
+
+<label for="parents">The Marital Relationship of Parents of Twins</label>
+<input type="checkbox" name="articles" id="parents" value="parents" /><br />
+
+</fieldset>
+</div>
+
+<div>
+<form id="mailing" action="">
+
+<fieldset><legend>Mailing Address</legend>
+
+<label for="firstname">First Name</label>
+<input type="text" name="firstname" id="firstname" class="text" size="32" /><br />
+
+<label for="lastname">Last Name</label>
+<input type="text" name="lastname" id="lastname" class="text" size="32" /><br />
+
+<label for="address">Address</label>
+<input type="text" name="address" id="address" class="text" size="32" /><br />
+
+<label for="city">City</label>
+<input type="text" name="city" id="city" class="text" size="32" /><br />
+
+<label for="state">State</label>
+<input type="text" name="state" id="state" class="text" size="32" maxlength="2" /><br />
+
+<label for="zip">Zip Code</label>
+<input type="text" name="zip" id="zip" class="text" size="32" /><br />
+
+</fieldset>
+</form>
+
+</div> <!-- end text boxes-->
+
+<div>
+<fieldset id="subscription"><legend>I would like to receive a subscription to the Twin Life magazine</legend>
+<label for="yes">yes</label>
+<input type="radio" name="subscription" id="yes" value="yes" checked="checked"/><br />
+<label for="no">no</label>
+<input type="radio" name="subscription" id="no" value="no" /><br />
+</fieldset>
+</div>
+
+<div id="buttons">
+<input type="submit" value="Submit Survey" class="button" /> 
+<input type="reset" value="Cancel" class="button" />
+</div>
+  
+  </form>
+  
+</div> <!-- close survey div -->
+</div> <!-- close bg div -->
+
+<div id="footer">
+  <p>&copy; 2011 Twinlife Magazine-- designed by Ross Higley 
+  <br />For more information on twins visit <a href="http://www.twinparenthood.com/category/twin-life/page/2/">TwinParentHood.com</a>
+  <br />Or you can email us at <a href="mailto:editor@twinlife.com">Editor@twinlife.com</a>
+  <br /><a href="#top">Back to Top</a></p>
+</div>
+
+
+</div> <!-- close container div -->
+
+</body>
+</html>
